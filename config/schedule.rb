@@ -4,7 +4,7 @@
 # http://en.wikipedia.org/wiki/Cron
 
 every 1.days, at: '8:00 am' do
-  command "~/workspace/reddit-background/reddit-background"
+  command "/usr/local/bin/reddit-background"
 end
 
 # Learn more: http://github.com/javan/whenever
